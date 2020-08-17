@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <color name="brand_blue">#173085</color>
+    <color name="brand_light_blue">#314591</color>
+    <color name="brand_pink">#e3475b</color>
+    <color name="brand_pink_light">#ff7b88</color>
+    <color name="error">#B00020</color>
+    <color name="md_black">#000000</color>
+    <color name="md_white">#FFFFFF</color>
+
+
+</resources>

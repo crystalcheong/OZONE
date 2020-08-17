@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">OZONE</string>
+    <string-array name="filter_options">
+        <item>Date</item>
+        <item>Running Time</item>
+        <item>Distance</item>
+        <item>Average Speed</item>
+        <item>Calories Burned</item>
+    </string-array>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDK-csJ6yZV6VJchkU3J55YEAGqML4QqHg</string>
+    <string name="dev_website"><u>https://sites.google.com/view/ozonefitness/home</u></string>
+    <string name="dev_email"><u>crystalcheongyq@gmail.com</u></string>
+</resources>

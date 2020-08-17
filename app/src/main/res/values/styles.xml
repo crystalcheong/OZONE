@@ -1,0 +1,65 @@
+
+
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Original AppCompat attributes. -->
+        <item name="colorPrimary">@color/brand_blue</item>
+        <item name="colorPrimaryVariant">@color/brand_light_blue</item>
+        <item name="colorOnPrimary">@color/md_black</item>
+        <item name="colorSecondary">@color/brand_pink</item>
+        <item name="colorSecondaryVariant">@color/brand_pink_light</item>
+        <item name="colorOnSecondary">@color/md_white</item>
+
+        <item name="android:colorBackground">@color/md_white</item>
+        <item name="colorOnBackground">@color/brand_blue</item>
+        <item name="colorSurface">@color/md_white</item>
+        <item name="colorOnSurface">@color/brand_blue</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@android:color/black</item>
+
+        <item name="android:editTextColor">@color/brand_blue</item>
+        <item name="android:textColor">@color/brand_blue</item>
+
+        <item name="textAppearanceHeadline1">@style/TextAppearance.MaterialComponents.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.MaterialComponents.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.MaterialComponents.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.MaterialComponents.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.MaterialComponents.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.MaterialComponents.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.MaterialComponents.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.MaterialComponents.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.MaterialComponents.Button</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
+
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+
+    </style>
+
+    <style name="TextViewStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:background">@color/md_white</item>
+        <item name="android:textColor">@color/brand_pink</item>
+        <item name="android:colorAccent">#009688</item>
+        <item name="android:textColorPrimary">#9C27B0</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/brand_pink</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/brand_pink</item>
+    </style>
+
+</resources>
+
+
